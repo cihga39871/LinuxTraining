@@ -1,4 +1,4 @@
-# LinuxTraining
+# Linux Training
 
 ## Prerequisite
 
