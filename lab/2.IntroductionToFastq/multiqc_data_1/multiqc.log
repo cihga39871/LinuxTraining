@@ -1,0 +1,174 @@
+[2020-07-30 15:21:03,491] multiqc                                            [DEBUG  ]  No MultiQC config found: /usr/local/lib/python2.7/dist-packages/multiqc_config.yaml
+[2020-07-30 15:21:03,491] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/jiacheng/.multiqc_config.yaml
+[2020-07-30 15:21:03,491] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2020-07-30 15:21:03,491] multiqc                                            [DEBUG  ]  Command used: /usr/local/bin/multiqc . ../../202006-first-run/trimmed
+[2020-07-30 15:21:04,169] multiqc                                            [WARNING]  MultiQC Version v1.9 now available!
+[2020-07-30 15:21:04,170] multiqc                                            [INFO   ]  This is MultiQC v1.7
+[2020-07-30 15:21:04,170] multiqc                                            [DEBUG  ]  Command     : /usr/local/bin/multiqc . ../../202006-first-run/trimmed
+[2020-07-30 15:21:04,170] multiqc                                            [DEBUG  ]  Working dir : /mnt/nvme0/jiacheng/CharlottetownWater/202006-second-run/trimmed
+[2020-07-30 15:21:04,170] multiqc                                            [INFO   ]  Template    : default
+[2020-07-30 15:21:04,170] multiqc                                            [INFO   ]  Searching '.'
+[2020-07-30 15:21:04,170] multiqc                                            [INFO   ]  Searching '../../202006-first-run/trimmed'
+[2020-07-30 15:21:04,171] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, conpair, peddy, methylQA, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, dedup, damageprofiler, picard, prokka, samblaster, samtools, bamtools, jellyfish, vcftools, longranger, stacks, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, minionqc, clusterflow, bcl2fastq, interop, flash
+[2020-07-30 15:21:04,171] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmp8csmgp
+[2020-07-30 15:21:04,222] multiqc                                            [DEBUG  ]  Ignoring directory as matched fn_ignore_dirs: ./multiqc_data
+[2020-07-30 15:21:04,223] multiqc                                            [DEBUG  ]  Ignoring directory as matched fn_ignore_dirs: ../../202006-first-run/trimmed/multiqc_data
+[2020-07-30 15:21:04,224] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S2_S2_run2_L001_R2_001.trim.fastq.gz
+[2020-07-30 15:21:04,224] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BL_S5_run2_L001_R1_001.trim.fastq.gz
+[2020-07-30 15:21:04,224] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S1_S1_run2_L001_R1_001.trim_fastqc.html
+[2020-07-30 15:21:04,243] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_run2_L001_R2_001.trim.fastq.gz
+[2020-07-30 15:21:04,283] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S4_S4_run2_L001_R2_001.trim.fastq.gz
+[2020-07-30 15:21:04,284] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S3_S3_run2_L001_R2_001.trim.fastq.gz
+[2020-07-30 15:21:04,292] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S3_S3_run2_L001_R1_001.trim.fastq.gz
+[2020-07-30 15:21:04,305] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S2_S2_run2_L001_R1_001.trim_fastqc.html
+[2020-07-30 15:21:04,320] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S2_S2_run2_L001_R2_001.trim_fastqc.html
+[2020-07-30 15:21:04,320] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S1_S1_run2_L001_R2_001.trim.fastq.gz
+[2020-07-30 15:21:04,320] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S4_S4_run2_L001_R1_001.trim.fastq.gz
+[2020-07-30 15:21:04,377] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BL_S5_run2_L001_R2_001.trim_fastqc.html
+[2020-07-30 15:21:04,377] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S4_S4_run2_L001_R1_001.trim_fastqc.html
+[2020-07-30 15:21:04,378] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S1_S1_run2_L001_R1_001.trim.fastq.gz
+[2020-07-30 15:21:04,402] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S3_S3_run2_L001_R2_001.trim_fastqc.html
+[2020-07-30 15:21:04,419] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_run2_L001_R2_001.trim_fastqc.html
+[2020-07-30 15:21:04,419] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S1_S1_run2_L001_R2_001.trim_fastqc.html
+[2020-07-30 15:21:04,419] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S3_S3_run2_L001_R1_001.trim_fastqc.html
+[2020-07-30 15:21:04,437] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BL_S5_run2_L001_R1_001.trim_fastqc.html
+[2020-07-30 15:21:04,475] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_run2_L001_R1_001.trim_fastqc.html
+[2020-07-30 15:21:04,487] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BL_S5_run2_L001_R2_001.trim.fastq.gz
+[2020-07-30 15:21:04,501] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S4_S4_run2_L001_R2_001.trim_fastqc.html
+[2020-07-30 15:21:04,501] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: multiqc_report.html
+[2020-07-30 15:21:04,501] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S2_S2_run2_L001_R1_001.trim.fastq.gz
+[2020-07-30 15:21:04,516] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_run2_L001_R1_001.trim.fastq.gz
+[2020-07-30 15:21:04,569] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S1_S1_run1_L001_R2_001.trim_fastqc.html
+[2020-07-30 15:21:04,596] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S3_S3_run1_L001_R1_001.trim_fastqc.html
+[2020-07-30 15:21:04,611] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_run1_L001_R2_001.trim_fastqc.html
+[2020-07-30 15:21:04,615] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S4_S4_run1_L001_R1_001.trim.fastq.gz
+[2020-07-30 15:21:04,615] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S4_S4_run1_L001_R1_001.trim_fastqc.html
+[2020-07-30 15:21:04,626] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S1_S1_run1_L001_R1_001.trim_fastqc.html
+[2020-07-30 15:21:04,627] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S3_S3_run1_L001_R1_001.trim.fastq.gz
+[2020-07-30 15:21:04,639] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S1_S1_run1_L001_R2_001.trim.fastq.gz
+[2020-07-30 15:21:04,709] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S4_S4_run1_L001_R2_001.trim.fastq.gz
+[2020-07-30 15:21:04,709] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_run1_L001_R2_001.trim.fastq.gz
+[2020-07-30 15:21:04,782] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BL_S5_run1_L001_R2_001.trim_fastqc.html
+[2020-07-30 15:21:04,782] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S2_S2_run1_L001_R2_001.trim.fastq.gz
+[2020-07-30 15:21:04,782] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S3_S3_run1_L001_R2_001.trim.fastq.gz
+[2020-07-30 15:21:04,799] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_run1_L001_R1_001.trim_fastqc.html
+[2020-07-30 15:21:04,800] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BL_S5_run1_L001_R1_001.trim.fastq.gz
+[2020-07-30 15:21:04,801] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S2_S2_run1_L001_R2_001.trim_fastqc.html
+[2020-07-30 15:21:04,801] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S4_S4_run1_L001_R2_001.trim_fastqc.html
+[2020-07-30 15:21:04,801] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S2_S2_run1_L001_R1_001.trim.fastq.gz
+[2020-07-30 15:21:04,801] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S2_S2_run1_L001_R1_001.trim_fastqc.html
+[2020-07-30 15:21:04,825] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BL_S5_run1_L001_R1_001.trim_fastqc.html
+[2020-07-30 15:21:04,903] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: multiqc_report.html
+[2020-07-30 15:21:04,907] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S1_S1_run1_L001_R1_001.trim.fastq.gz
+[2020-07-30 15:21:04,908] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: 6S3_S3_run1_L001_R2_001.trim_fastqc.html
+[2020-07-30 15:21:04,908] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: Undetermined_S0_run1_L001_R1_001.trim.fastq.gz
+[2020-07-30 15:21:04,908] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: BL_S5_run1_L001_R2_001.trim.fastq.gz
+[2020-07-30 15:21:05,054] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2020-07-30 15:21:05,057] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2020-07-30 15:21:05,059] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2020-07-30 15:21:05,060] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2020-07-30 15:21:05,062] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
+[2020-07-30 15:21:05,063] multiqc                                            [DEBUG  ]  No samples found: qualimap
+[2020-07-30 15:21:05,065] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2020-07-30 15:21:05,066] multiqc                                            [DEBUG  ]  No samples found: quast
+[2020-07-30 15:21:05,068] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2020-07-30 15:21:05,069] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2020-07-30 15:21:05,070] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2020-07-30 15:21:05,072] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2020-07-30 15:21:05,074] multiqc                                            [DEBUG  ]  No samples found: busco
+[2020-07-30 15:21:05,075] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2020-07-30 15:21:05,076] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2020-07-30 15:21:05,078] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2020-07-30 15:21:05,080] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2020-07-30 15:21:05,081] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2020-07-30 15:21:05,083] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2020-07-30 15:21:05,084] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2020-07-30 15:21:05,086] multiqc                                            [DEBUG  ]  No samples found: happy
+[2020-07-30 15:21:05,087] multiqc                                            [DEBUG  ]  No samples found: homer
+[2020-07-30 15:21:05,089] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2020-07-30 15:21:05,090] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2020-07-30 15:21:05,091] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2020-07-30 15:21:05,093] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2020-07-30 15:21:05,095] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2020-07-30 15:21:05,096] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2020-07-30 15:21:05,098] multiqc                                            [DEBUG  ]  No samples found: featureCounts
+[2020-07-30 15:21:05,099] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2020-07-30 15:21:05,100] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
+[2020-07-30 15:21:05,103] multiqc                                            [DEBUG  ]  No samples found: picard
+[2020-07-30 15:21:05,104] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2020-07-30 15:21:05,105] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2020-07-30 15:21:05,107] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2020-07-30 15:21:05,109] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2020-07-30 15:21:05,110] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2020-07-30 15:21:05,111] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2020-07-30 15:21:05,113] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2020-07-30 15:21:05,114] multiqc                                            [DEBUG  ]  No samples found: stacks
+[2020-07-30 15:21:05,117] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2020-07-30 15:21:05,118] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2020-07-30 15:21:05,120] multiqc                                            [DEBUG  ]  No samples found: biscuit
+[2020-07-30 15:21:05,121] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2020-07-30 15:21:05,123] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2020-07-30 15:21:05,124] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2020-07-30 15:21:05,125] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2020-07-30 15:21:05,127] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2020-07-30 15:21:05,128] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2020-07-30 15:21:05,130] multiqc                                            [DEBUG  ]  No samples found: star
+[2020-07-30 15:21:05,131] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2020-07-30 15:21:05,133] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2020-07-30 15:21:05,134] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2020-07-30 15:21:05,135] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2020-07-30 15:21:05,137] multiqc                                            [DEBUG  ]  No samples found: kat
+[2020-07-30 15:21:05,138] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2020-07-30 15:21:05,140] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2020-07-30 15:21:05,141] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2020-07-30 15:21:05,142] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2020-07-30 15:21:05,144] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2020-07-30 15:21:05,145] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2020-07-30 15:21:05,150] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found in 6S3_S3_run2_L001-trimmed.log! Overwriting: 6S3_S3_run2_L001_R1_001
+[2020-07-30 15:21:05,150] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found! Overwriting: 6S3_S3_run2_L001_R1_001
+[2020-07-30 15:21:05,153] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found in Undetermined_S0_run2_L001-trimmed.log! Overwriting: Undetermined_S0_run2_L001_R1_001
+[2020-07-30 15:21:05,153] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found! Overwriting: Undetermined_S0_run2_L001_R1_001
+[2020-07-30 15:21:05,156] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found in BL_S5_run2_L001-trimmed.log! Overwriting: BL_S5_run2_L001_R1_001
+[2020-07-30 15:21:05,156] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found! Overwriting: BL_S5_run2_L001_R1_001
+[2020-07-30 15:21:05,160] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found in 6S4_S4_run2_L001-trimmed.log! Overwriting: 6S4_S4_run2_L001_R1_001
+[2020-07-30 15:21:05,160] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found! Overwriting: 6S4_S4_run2_L001_R1_001
+[2020-07-30 15:21:05,163] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found in 6S2_S2_run2_L001-trimmed.log! Overwriting: 6S2_S2_run2_L001_R1_001
+[2020-07-30 15:21:05,163] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found! Overwriting: 6S2_S2_run2_L001_R1_001
+[2020-07-30 15:21:05,192] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found in 6S1_S1_run2_L001-trimmed.log! Overwriting: 6S1_S1_run2_L001_R1_001
+[2020-07-30 15:21:05,192] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found! Overwriting: 6S1_S1_run2_L001_R1_001
+[2020-07-30 15:21:05,195] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found in BL_S5_run1_L001-trimmed.log! Overwriting: BL_S5_run1_L001_R1_001
+[2020-07-30 15:21:05,195] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found! Overwriting: BL_S5_run1_L001_R1_001
+[2020-07-30 15:21:05,198] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found in 6S4_S4_run1_L001-trimmed.log! Overwriting: 6S4_S4_run1_L001_R1_001
+[2020-07-30 15:21:05,198] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found! Overwriting: 6S4_S4_run1_L001_R1_001
+[2020-07-30 15:21:05,201] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found in Undetermined_S0_run1_L001-trimmed.log! Overwriting: Undetermined_S0_run1_L001_R1_001
+[2020-07-30 15:21:05,201] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found! Overwriting: Undetermined_S0_run1_L001_R1_001
+[2020-07-30 15:21:05,204] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found in 6S3_S3_run1_L001-trimmed.log! Overwriting: 6S3_S3_run1_L001_R1_001
+[2020-07-30 15:21:05,204] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found! Overwriting: 6S3_S3_run1_L001_R1_001
+[2020-07-30 15:21:05,207] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found in 6S1_S1_run1_L001-trimmed.log! Overwriting: 6S1_S1_run1_L001_R1_001
+[2020-07-30 15:21:05,207] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found! Overwriting: 6S1_S1_run1_L001_R1_001
+[2020-07-30 15:21:05,210] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found in 6S2_S2_run1_L001-trimmed.log! Overwriting: 6S2_S2_run1_L001_R1_001
+[2020-07-30 15:21:05,210] multiqc.modules.skewer.skewer                      [DEBUG  ]  Duplicate sample name found! Overwriting: 6S2_S2_run1_L001_R1_001
+[2020-07-30 15:21:05,340] multiqc.modules.skewer.skewer                      [INFO   ]  Found 12 reports
+[2020-07-30 15:21:05,341] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2020-07-30 15:21:05,343] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2020-07-30 15:21:05,344] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2020-07-30 15:21:05,346] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2020-07-30 15:21:05,347] multiqc                                            [DEBUG  ]  No samples found: fastp
+[2020-07-30 15:21:05,874] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 24 reports
+[2020-07-30 15:21:06,859] multiqc                                            [DEBUG  ]  No samples found: minionqc
+[2020-07-30 15:21:06,860] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2020-07-30 15:21:06,862] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2020-07-30 15:21:06,863] multiqc                                            [DEBUG  ]  No samples found: interop
+[2020-07-30 15:21:06,865] multiqc                                            [DEBUG  ]  No samples found: flash
+[2020-07-30 15:21:06,884] multiqc                                            [INFO   ]  Compressing plot data
+[2020-07-30 15:21:07,484] multiqc                                            [WARNING]  Previous MultiQC output found! Adjusting filenames..
+[2020-07-30 15:21:07,484] multiqc                                            [WARNING]  Use -f or --force to overwrite existing reports instead
+[2020-07-30 15:21:07,484] multiqc                                            [INFO   ]  Report      : multiqc_report_1.html
+[2020-07-30 15:21:07,484] multiqc                                            [INFO   ]  Data        : multiqc_data_1
+[2020-07-30 15:21:07,484] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmp8csmgp/multiqc_data/multiqc_general_stats.txt' to '/mnt/nvme0/jiacheng/CharlottetownWater/202006-second-run/trimmed/multiqc_data_1'
+[2020-07-30 15:21:07,485] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmp8csmgp/multiqc_data/multiqc_fastqc.txt' to '/mnt/nvme0/jiacheng/CharlottetownWater/202006-second-run/trimmed/multiqc_data_1'
+[2020-07-30 15:21:07,485] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmp8csmgp/multiqc_data/multiqc_skewer_readlen_dist.txt' to '/mnt/nvme0/jiacheng/CharlottetownWater/202006-second-run/trimmed/multiqc_data_1'
+[2020-07-30 15:21:07,485] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmp8csmgp/multiqc_data/multiqc_data.json' to '/mnt/nvme0/jiacheng/CharlottetownWater/202006-second-run/trimmed/multiqc_data_1'
+[2020-07-30 15:21:07,487] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmp8csmgp/multiqc_data/multiqc_skewer.txt' to '/mnt/nvme0/jiacheng/CharlottetownWater/202006-second-run/trimmed/multiqc_data_1'
+[2020-07-30 15:21:07,487] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmp8csmgp/multiqc_data/multiqc_sources.txt' to '/mnt/nvme0/jiacheng/CharlottetownWater/202006-second-run/trimmed/multiqc_data_1'
+[2020-07-30 15:21:07,574] multiqc                                            [INFO   ]  MultiQC complete
